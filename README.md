@@ -17,4 +17,4 @@ a multiple open page in tab plugin,base on jQuery,Bootstrap2,3
 
 ## docs,example,guide
 
-Explorer on <a href="https://terryz.github.io/" target="_blank">TerryZ.github.io</a>
+Explorer on <a href="https://terryz.github.io/btabs/index.html" target="_blank">https://terryz.github.io/btabs/index.html</a>
