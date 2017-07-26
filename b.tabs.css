@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+.bTabs{
+	margin-top: 10px;
+	height: 100%;
+}
+.bTabs button.navTabsCloseBtn {
+	font-size: 23px !important;
+	cursor: pointer;
+	
+	margin-left: 10px;
+	font-style: normal;
+	line-height: 20px;
+	font-family: inherit;
+	font-weight: normal;
+	
+	position: relative;
+    top: -2px;
+    color: #AAAAAA;
+    
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    
+	float: right;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+}
+.bTabs button.navTabsCloseBtn:hover{
+	color: red !important;
+	font-weight: 700;
+}
+.bTabs .nav-tabs{
+	margin-bottom: 5px;
+	padding-left: 20px;
+}
+.bTabs .nav-tabs>li {
+	margin-right: 5px;
+}
+.bTabs .nav-tabs>li>a {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #666666;
+}
+.bTabs .nav-tabs li.active a {
+	color: #227AD7;
+	font-weight: bold;
+}
+.bTabs .nav-tabs li.active a button.navTabsCloseBtn{
+	color: #666666;
+}
+.bTabs div.tab-content {
+	height: 100%;
+	overflow-y: hidden;
+}
+.bTabs div.tab-content div.tab-pane {
+	height: 100%;
+}
