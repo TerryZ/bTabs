@@ -22,6 +22,10 @@
 		 */
 		'loginUrl' : '/',
 		/**
+		 * 自定义样式
+		 */
+		'className' : undefined,
+		/**
 		 * 浏览窗口尺寸发生变化时执行的回调
 		 */
 		'resize' : undefined
@@ -53,6 +57,8 @@
 		var self = this,c = constants, $tabs = this.$container, openTabs = this.openTabs, p = this.p;
 		
 		$($tabs).addClass('bTabs');
+		if(p.className) $($tabs).addClass(p.className);
+		
 		$('ul.nav-tabs a',$($tabs)).each(function(i,row){
 			var li = $(this).closest('li');
 			if(li && !$(li).hasClass(c.noCloseClass)) $(row).append(c.closeBtnTemplate);
