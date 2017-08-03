@@ -62,9 +62,17 @@
 	min-height: 31px !important;
 }
 .bTabs li.ui-sortable-placeholder{
-	border: 2px dashed #AAAAAA;
+	border: 2px dashed #AAAAAA !important;
 	/* border: 0px; */
 	background-color: #FFFFE1;
 	padding: 0px;
 	height: 28px !important;
+}
+.bTabs li.ui-sortable-handle {
+	-ms-touch-action: none;
+	touch-action: none;
+}
+.bTabs li.bTabsPlaceHolder{
+	visibility: visible !important;
+	box-sizing: content-box;
 }

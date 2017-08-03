@@ -87,6 +87,7 @@
 				items : "li:not(."+c.noSortClass+")",
 				cancel : "li:not(.active)",
 				axis : "x",
+				placeholder : 'bTabsPlaceHolder',
 				forcePlaceholderSize : true,
 				stop : function(e,ui){}
 			}).disableSelection();
