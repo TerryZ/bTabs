@@ -1,7 +1,8 @@
 @CHARSET "UTF-8";
 .bTabs{
-	margin-top: 10px;
-	height: 100%;
+	/* margin-top: 10px; */
+	/* height: 100%; */
+	min-height: 200px !important;
 }
 .bTabs button.navTabsCloseBtn {
 	font-size: 23px !important;
@@ -56,4 +57,14 @@
 }
 .bTabs div.tab-content div.tab-pane {
 	height: 100%;
+}
+.bTabs ul.ui-sortable{
+	min-height: 31px !important;
+}
+.bTabs li.ui-sortable-placeholder{
+	border: 2px dashed #AAAAAA;
+	/* border: 0px; */
+	background-color: #FFFFE1;
+	padding: 0px;
+	height: 28px !important;
 }

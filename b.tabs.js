@@ -11,7 +11,9 @@
  * changelog:
  * 2017.07.21 - 重构代码
  *              解决IE下关闭标签页后切换其它标签页不能获得焦点问题
- *  
+ * 2017.08.03 - 增加内部高度修正功能
+ *              增加标签拖拽功能（依赖jquery-ui功能库，需要引入脚本）
+ *              修复部分Bug
  */
 !function ($) {
 	"use strict";
@@ -26,6 +28,12 @@
 		 */
 		'className' : undefined,
 		/**
+		 * 是否允许标签被拖拽排序，默认允许
+		 * 拖拽功能依赖jquery-ui脚本库，请在使用之前引入功能库
+		 * 设置“noSort”样式可以让标签不被排序
+		 */
+		'sortable' : true,
+		/**
 		 * 浏览窗口尺寸发生变化时执行的回调
 		 */
 		'resize' : undefined
@@ -38,6 +46,8 @@
 		closeBtnTemplate : '<button type="button" class="navTabsCloseBtn" title="关闭" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>',
 		//设置该样式的tab不会被关闭
 		noCloseClass : 'noclose',
+		//设置该样式不会被拖拽修改位置
+		noSortClass : 'noSort',
 		prefixKey : 'bTabs_'
 	};
 	
@@ -71,11 +81,34 @@
 			var id = $(this).parent().attr('href').replace('#', '');
 			self.closeTab(id);
 		});
+		//处理窗口拖拽排序功能
+		if(p.sortable && $.fn.sortable){
+			$('ul.nav-tabs',$tabs).sortable({
+				items : "li:not(."+c.noSortClass+")",
+				cancel : "li:not(.active)",
+				axis : "x",
+				forcePlaceholderSize : true,
+				stop : function(e,ui){}
+			}).disableSelection();
+		}
 		if(p && p.resize && $.isFunction(p.resize)){
+			p.resize();
+			self.innerResize();
 			$(window).off('resize.bTabs').on('resize.bTabs',function(e){
 				p.resize();
+				self.innerResize();
 			});
 		}
+	};
+	/**
+	 * 内部高度调整
+	 */
+	bTabs.prototype.innerResize = function(){
+		var $tabs = this.$container;
+		//高度计算
+		var mainHeight = $($tabs).innerHeight();
+		var tabBarHeight = $('ul.nav-tabs',$tabs).outerHeight(true);
+		$('div.tab-content',$tabs).height(mainHeight - tabBarHeight);
 	};
 	/**
 	 * 新增一个tab，但如果是已存在的tab则只是激活它，而不再新增
@@ -109,7 +142,7 @@
 		//切换到新增加的tab上
 		$('ul.nav-tabs li:last a',$tabs).tab('show');
 		openTabs.push(tabId);
-
+		
 		var openIframe = function(){
 			$(content).append('<iframe frameborder="0" scrolling="yes" style="width:100%;height:100%;border:0px;" src="'+url+'"></iframe>');
 		};
