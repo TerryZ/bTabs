@@ -15,6 +15,7 @@ Explorer on
 ## plugin preview  
 
 ![bTabs](https://terryz.github.io/image/bTabs.png)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FTerryZ%2FbTabs.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FTerryZ%2FbTabs?ref=badge_shield)
 
 ## Key Features
 
@@ -31,3 +32,7 @@ Explorer on
 ## docs,example,guide
 
 Explorer on <a href="https://terryz.github.io/btabs/index.html" target="_blank">https://terryz.github.io/btabs/index.html</a>
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FTerryZ%2FbTabs.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FTerryZ%2FbTabs?ref=badge_large)
