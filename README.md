@@ -2,6 +2,8 @@
 
 a multiple open page in tab plugin,base on jQuery,Bootstrap2,3
 
+<br><br>
+
 ## Docs、Demo、Guide
 
 Explorer on 
@@ -10,13 +12,17 @@ Explorer on
 
 - [中文官网](https://terryz.gitee.io/btabs/index.html)
 
-### If you think the project is also good, please add a Star to the project to support the work of the author, Thank you
+**If you think the project is helpful, just star to support**
+
+<br><br>
 
 ## plugin preview  
 
 ![bTabs](https://terryz.github.io/image/bTabs.png)
 
-## Key Features
+<br><br>
+
+## Features
 
 <ul>
   <li>jQuery plugin</li>
@@ -27,7 +33,3 @@ Explorer on
   <li>quickly use themes</li>
   <li>brower supper IE8+,chrome,firefox</li>
 </ul>
-
-## docs,example,guide
-
-Explorer on <a href="https://terryz.github.io/btabs/index.html" target="_blank">https://terryz.github.io/btabs/index.html</a>
