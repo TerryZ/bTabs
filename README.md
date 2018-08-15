@@ -31,5 +31,4 @@ Explorer on
   <li>multiple tabs have separate contexts that do not interfere with each other</li>
   <li>the tabs are sorted by drag and drop quickly</li>
   <li>quickly use themes</li>
-  <li>brower supper IE8+,chrome,firefox</li>
 </ul>
