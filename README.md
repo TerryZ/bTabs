@@ -16,7 +16,7 @@ Explorer on
 
 <br><br>
 
-## plugin preview  
+## Plugin preview  
 
 ![bTabs](https://terryz.github.io/image/bTabs.png)
 
