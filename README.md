@@ -24,11 +24,9 @@ Explorer on
 
 ## Features
 
-<ul>
-  <li>jQuery plugin</li>
-  <li>use bootstrap2、3 ui framework</li>
-  <li>multiple open page in tab,operating mode such as EXT,EasyUI and so on</li>
-  <li>multiple tabs have separate contexts that do not interfere with each other</li>
-  <li>the tabs are sorted by drag and drop quickly</li>
-  <li>quickly use themes</li>
-</ul>
+- jQuery plugin
+- use bootstrap2、3 ui framework
+- multiple open page in tab,operating mode such as EXT,EasyUI and so on
+- multiple tabs have separate contexts that do not interfere with each other
+- the tabs are sorted by drag and drop quickly
+- quickly use themes
