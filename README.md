@@ -16,12 +16,6 @@ Explorer on
 
 <br><br>
 
-## Plugin preview  
-
-![bTabs](https://terryz.github.io/image/bTabs.png)
-
-<br><br>
-
 ## Features
 
 - jQuery plugin
@@ -30,3 +24,11 @@ Explorer on
 - multiple tabs have separate contexts that do not interfere with each other
 - the tabs are sorted by drag and drop quickly
 - quickly use themes
+
+<br><br>
+
+## Plugin preview  
+
+![bTabs](https://terryz.github.io/image/bTabs.png)
+
+
