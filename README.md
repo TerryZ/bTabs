@@ -8,7 +8,7 @@ a plugin open pages in tab, based on jQuery, Bootstrap2,3
 
 Explorer on 
 
-- [English official site](https://terryz.github.io/btabs/index.html)
+- [English site](https://terryz.github.io/btabs/index.html)
 
 - [中文官网](https://terryz.gitee.io/btabs/index.html)
 
