@@ -1,6 +1,6 @@
 # bTabs
 
-a plugin open pages in tab, based on jQuery, Bootstrap2,3
+a jQuery plugin open pages in tab, based on Bootstrap2,3
 
 <br><br>
 
