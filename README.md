@@ -16,6 +16,11 @@ Explorer on
 
 <br><br>
 
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FTerryZ%2FbTabs.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FTerryZ%2FbTabs?ref=badge_large)
+
+<br><br>
+
 ## Features
 
 - jQuery plugin
@@ -30,5 +35,4 @@ Explorer on
 ## Plugin preview  
 
 ![bTabs](https://terryz.github.io/image/bTabs.png)
-
-
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FTerryZ%2FbTabs.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FTerryZ%2FbTabs?ref=badge_shield)
