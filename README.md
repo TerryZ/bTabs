@@ -1,6 +1,6 @@
 # bTabs
 
-a jQuery plugin open pages in tab, based on Bootstrap2,3
+A jQuery plugin open pages in tab, based on Bootstrap2,3
 
 <br><br>
 
@@ -19,6 +19,8 @@ Explorer on
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FTerryZ%2FbTabs.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FTerryZ%2FbTabs?ref=badge_large)
 
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FTerryZ%2FbTabs.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FTerryZ%2FbTabs?ref=badge_shield)
+
 <br><br>
 
 ## Features
@@ -35,4 +37,3 @@ Explorer on
 ## Plugin preview  
 
 ![bTabs](https://terryz.github.io/image/bTabs.png)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FTerryZ%2FbTabs.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FTerryZ%2FbTabs?ref=badge_shield)
