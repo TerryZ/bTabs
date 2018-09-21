@@ -12,14 +12,12 @@ Explorer on
 
 - [中文官网](https://terryz.gitee.io/btabs/index.html)
 
-**If you think the project is helpful, just star to support**
 
-<br><br>
-
-## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FTerryZ%2FbTabs.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FTerryZ%2FbTabs?ref=badge_large)
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FTerryZ%2FbTabs.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FTerryZ%2FbTabs?ref=badge_shield)
+
+**If you think the project is helpful, just star to support**
 
 <br><br>
 
