@@ -2,6 +2,8 @@
 
 A jQuery plugin open pages in tab, based on Bootstrap2,3
 
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FTerryZ%2FbTabs.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FTerryZ%2FbTabs?ref=badge_shield)
+
 <br><br>
 
 ## Docs、Demo、Guide
@@ -15,7 +17,6 @@ Explorer on
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FTerryZ%2FbTabs.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FTerryZ%2FbTabs?ref=badge_large)
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FTerryZ%2FbTabs.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FTerryZ%2FbTabs?ref=badge_shield)
 
 **If you think the project is helpful, just star to support**
 
