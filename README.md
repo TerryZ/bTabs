@@ -25,7 +25,7 @@ Explorer on
 ## Features
 
 - jQuery plugin
-- use bootstrap2、3 ui framework
+- used bootstrap2、3 ui framework
 - multiple open page in tab,operating mode such as EXT,EasyUI and so on
 - multiple tabs have separate contexts that do not interfere with each other
 - the tabs are sorted by drag and drop quickly
